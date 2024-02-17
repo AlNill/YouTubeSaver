@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeSaver.Web", "YouTubeSaver.Web\YouTubeSaver.Web.csproj", "{F012539F-B288-497C-8574-B64A470AA8C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeSaver.Web", "YouTubeSaver.Web\YouTubeSaver.Web.csproj", "{F012539F-B288-497C-8574-B64A470AA8C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeSaver.DLL", "YouTubeSaver.DLL\YouTubeSaver.DLL.csproj", "{3C7B17F0-561B-4DD0-8E09-B38231BE2EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeSaver.Console", "YouTubeSaver.Console\YouTubeSaver.Console.csproj", "{C5315CE3-D04D-4FF2-AB8E-C75B0F94706C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F012539F-B288-497C-8574-B64A470AA8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F012539F-B288-497C-8574-B64A470AA8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F012539F-B288-497C-8574-B64A470AA8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C7B17F0-561B-4DD0-8E09-B38231BE2EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7B17F0-561B-4DD0-8E09-B38231BE2EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7B17F0-561B-4DD0-8E09-B38231BE2EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7B17F0-561B-4DD0-8E09-B38231BE2EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5315CE3-D04D-4FF2-AB8E-C75B0F94706C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5315CE3-D04D-4FF2-AB8E-C75B0F94706C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5315CE3-D04D-4FF2-AB8E-C75B0F94706C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5315CE3-D04D-4FF2-AB8E-C75B0F94706C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
